@@ -21,7 +21,7 @@ Ready to collaborate? Get in touch through any of the following channels:
 - **Secondary**: [expencive425@outlook.com](mailto:expencive425@outlook.com?subject=To%20TAO-STAR&body=Hello%20TAO-STAR%2C%0A%0A)
 
 ### 🌐 Social Media & Messaging
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaias-money-640056390)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/DEV-MAT1996)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/users/bittensor1)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/smartman517)
