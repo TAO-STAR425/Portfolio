@@ -12,6 +12,22 @@ A stunning, cinematic portfolio website showcasing 7+ years of expertise in AI, 
 - **Contact Integration**: Built-in contact form with multiple communication channels
 - **Performance Optimized**: Fast loading with smooth animations
 
+## 📞 Contact
+
+Ready to collaborate? Get in touch through any of the following channels:
+
+### 📧 Email
+- **Primary**: [isaiasmoney2@gmail.com](mailto:isaiasmoney2@gmail.com?subject=To%20TAO-STAR&body=Hello%20TAO-STAR%2C%0A%0A)
+- **Secondary**: [expencive425@outlook.com](mailto:expencive425@outlook.com?subject=To%20TAO-STAR&body=Hello%20TAO-STAR%2C%0A%0A)
+
+### 🌐 Social Media & Messaging
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaias-money-640056390)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/DEV-MAT1996)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/users/bittensor1)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/smartman517)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/YC0112_425_517)
+
+
 ## 🚀 Technologies Used
 
 - **React 18** with TypeScript
@@ -254,21 +270,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Feel free to fork this project and customize it for your own portfolio. If you create improvements, pull requests are welcome!
-
-## 📞 Contact
-
-Ready to collaborate? Get in touch through any of the following channels:
-
-### 📧 Email
-- **Primary**: [isaiasmoney2@gmail.com](mailto:isaiasmoney2@gmail.com?subject=To%20TAO-STAR&body=Hello%20TAO-STAR%2C%0A%0A)
-- **Secondary**: [expencive425@outlook.com](mailto:expencive425@outlook.com?subject=To%20TAO-STAR&body=Hello%20TAO-STAR%2C%0A%0A)
-
-### 🌐 Social Media & Messaging
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaias-money-640056390)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/DEV-MAT1996)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/users/bittensor1)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/smartman517)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/YC0112_425_517)
 
 ### 💼 Professional Inquiries
 For business inquiries, project collaborations, or technical consultations, please use the primary email address or connect via LinkedIn for the fastest response.
