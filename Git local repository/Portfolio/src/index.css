@@ -1,0 +1,212 @@
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+/* Mapbox GL CSS - Global Styles */
+
+/* Custom Mapbox Styling for Dark Theme */
+.mapboxgl-popup-content {
+  background: rgba(31, 41, 55, 0.95) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(55, 65, 81, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: rgba(31, 41, 55, 0.95) !important;
+}
+
+.mapboxgl-ctrl-group {
+  background: rgba(31, 41, 55, 0.8) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(55, 65, 81, 0.5) !important;
+  border-radius: 6px !important;
+}
+
+.mapboxgl-ctrl-group button {
+  background: transparent !important;
+  color: #D1D5DB !important;
+  border: none !important;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  background: rgba(59, 130, 246, 0.2) !important;
+  color: #FFFFFF !important;
+}
+
+.mapboxgl-ctrl-group button:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5) !important;
+}
+
+/* Custom marker styling */
+.mapboxgl-marker {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* Map container styling */
+.mapboxgl-map {
+  border-radius: 12px;
+}
+
+/* Attribution control styling */
+.mapboxgl-ctrl-attrib {
+  background: rgba(31, 41, 55, 0.8) !important;
+  color: #9CA3AF !important;
+  font-size: 10px !important;
+}
+
+.mapboxgl-ctrl-attrib a {
+  color: #60A5FA !important;
+}
+/* Additional Map Container Styles */
+.map-container {
+  position: relative;
+  isolation: isolate;
+}
+
+.map-container .mapboxgl-canvas-container {
+  cursor: grab !important;
+}
+
+.map-container .mapboxgl-canvas-container:active {
+  cursor: grabbing !important;
+}
+
+.map-container:hover * {
+  pointer-events: auto !important;
+}
+
+/* Ensure map is visible and interactive */
+.mapboxgl-map {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+/* Fix any z-index issues */
+.mapboxgl-canvas-container,
+.mapboxgl-control-container {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Disable text selection on map */
+.mapboxgl-canvas-container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Map hover effects */
+.map-container:hover {
+  transform: none !important;
+}
+
+.map-container:hover .mapboxgl-canvas {
+  cursor: grab !important;
+}
